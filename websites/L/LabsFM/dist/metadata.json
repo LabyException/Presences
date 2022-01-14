@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schemas.premid.app/metadata/1.6",
+    "author": {
+      "name": "LabyException🌈",
+      "id": "322021890300444672"
+    },
+    "service": "LabsFM",
+    "description": {
+      "en": "Show everyone what music you listen to on LabsFM!",
+      "de": "Zeige allen welche Musik du bei LabsFM hoerst!"
+    },
+    "url": [
+      "www.labsfm.de",
+      "labsfm.de"
+    ],
+    "version": "1.0.0",
+    "logo": "https://laby-cdn.de/LabsFM/Logo.png",
+    "thumbnail": "https://laby-cdn.de/LabsFM/Logo.png",
+    "color": "#fe7301",
+    "category": "music",
+    "iframe": false,
+    "tags": [
+      "music"
+    ]
+  }
