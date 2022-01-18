@@ -35,8 +35,9 @@ const presence = new Presence({
       smallImageText: "LabsFM.de - Liebe deine Musik!",
     };
     if (document.location.pathname.includes("/streams")) {
-      presenceData.details =  "Hört sich einen Stream an..";
+      presenceData.details =  "Hört sich einen Stream an";
     }
+    else if(document.domain.includes("status.")) presenceData.details = "Schaut sich die Statusseite an";
     else if (document.location.pathname.includes("/partner")) presenceData.details = "Schaut sich die Partner an";
     else if (document.location.pathname.includes("/history")) presenceData.details = "Schaut sich die Stream History an";
     else if (document.location.pathname.includes("/beschreibung")) presenceData.details = "Schaut sich die TeamSpeak Beschreibung an";
